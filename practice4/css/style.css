@@ -1,0 +1,51 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');
+
+.textCapsWht {
+	font-family: sans-serif;
+	color: white;
+	text-transform: uppercase;
+	line-height: 60px;
+	letter-spacing: 1px;
+}
+
+.textCapsBlck {
+	font-family: sans-serif;
+	color: black;
+	text-transform: uppercase;
+	line-height: 60px;
+	letter-spacing: 1px;
+}
+
+.p {
+	font-family: 'Hepta Slab', serif;
+	line-height: 22px;
+}
+
+.h1 {
+	font-family: sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-size: 40px;
+	line-height: 40px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.link{
+	color: white;
+	text-decoration: none;
+}
+
+.img {
+	height: 200px;
+	background-color: #272B3D;
+	background-image: url(../img/image.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.blueBackgr {
+	background-color: dodgerBlue;
+	height: 60px;
+}
