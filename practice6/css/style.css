@@ -1,0 +1,104 @@
+@import url(reset.css);
+
+header {
+	background-color: white;
+	color: #E50043;
+	font-size: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+header a {
+	text-decoration: none;
+	color: #E50043;
+	margin-left: 30px;
+}
+
+footer {
+	background-color: #F8BFC7;
+	color: white;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.image {
+	display:inline-block;
+	position:relative;
+}
+
+.image p {
+	display:inline-block;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	color: #E50043;
+	font-size: 70px;
+	font-family: sans-serif;
+	transform: translate(-50%, -50%)	
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+}
+
+.textBox {
+	width: 60%;
+	border-radius: 10px;
+	border: 1px solid red;
+	font-family: sans-serif;
+	margin: 100px;
+	padding: 24px;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.05em
+}
+
+.textBox div {
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.bottles {
+	display: flex;
+	justify-content: center;
+}
+
+.bottle1 img, .bottle2 img, .bottle3 img {
+	width: 220px;
+	margin: 0px 70px;
+}
+
+.bottle4 img {
+	width: 80px;
+	margin: 0 60px;
+}
+
+.bottles p{
+	font-family: sans-serif;
+	text-align: center;
+	margin: 20px;
+}
+
+.logo, .links {
+	display: inline-block;
+}
+
+.text {
+	font-family: sans-serif;
+	padding: 15px;
+}
+
+.pLeft, .pRight {
+	display: inline-block;
+}
+
+.pRight {
+	position: absolute;
+	right: 0;
+}
+

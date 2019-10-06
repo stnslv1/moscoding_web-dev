@@ -1,0 +1,14 @@
+@import url(reset.css);
+
+.flexContainer {
+	height: 300px;
+	background-color: blue;
+	display: flex;
+}
+
+.flexItem {
+	height: 100px;
+	width: 100px;
+	background-color: orange;
+	margin: auto;
+}
