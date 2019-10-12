@@ -1,0 +1,30 @@
+@import url(reset.css);
+
+.outer {
+	height: 300px;
+	width: 70%;
+	background-color: black;
+}
+
+.inner {
+	height: 100px;
+	background-color: blue;
+	width: 70%;
+}
+
+.round {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: orange;
+}
+
+.popup {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	border: 2px solid red;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

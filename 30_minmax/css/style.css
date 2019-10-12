@@ -1,0 +1,12 @@
+@import url(reset.css);
+
+div {
+	width: 200px;
+	min-height: 300px;
+	border: 1px solid red;
+}
+
+.max {
+	height: 200px;
+	background-color: blue;
+}

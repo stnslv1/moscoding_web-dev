@@ -1,0 +1,90 @@
+@import url(reset.css);
+
+.header {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 160px;
+	text-align: center;
+	background-color: #FEB700;
+	height: 160px;
+	margin: 0 0 70px 0 ;
+}
+
+.columns {
+	width: 90vw;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.column {
+	width: calc((100% - 100px)/3);
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+.imageOne {
+	background-image: url(../img/1.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;	
+}
+
+.imageTwo {
+	background-image: url(../img/2.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.imageThree {
+	background-image: url(../img/3.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.text p {
+	margin: 10%;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.text h2 {
+	margin: 10%;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+footer {
+	background-color: #FEB700;
+	padding: 0 50px;
+	margin: 70px 0 0 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+.text2 {
+	font-size: 50px;
+	line-height: 160px;
+}
+
+.pLeft, .pRight {
+	display: inline-block;
+}
+
+.pRight {
+	position: absolute;
+	right: 50px;
+}
