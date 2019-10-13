@@ -1,0 +1,83 @@
+@import url(reset.css);
+
+.text {
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 100px;
+	color: white;
+}
+
+.header {
+	background-color: blue;
+	margin: 0 0 20px 0;
+	padding: 0 0 0 30px;
+}
+
+footer {
+	background-color: blue;
+	padding: 0 30px;
+	margin: 20px 0 0 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.pLeft, .pRight {
+	display: inline-block;
+}
+
+.pRight {
+	position: absolute;
+	right: 30px;
+}
+
+.block {
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	border: 5px solid #000000;
+	box-sizing: border-box;
+	padding: 40px;
+	margin: 20px;
+}
+
+
+@media screen and (min-width: 667px) {
+	.header {
+		margin: 0 0 100px 0;
+	}
+
+	footer {
+		margin: 100px 0 0 0;
+	}
+	
+	.block {
+		font-size: 35px;
+		line-height: 45px;
+		padding: 40px;
+		margin: 20px;
+	}
+
+	.row1 {
+		width: 90vw;
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+
+	.row2 {
+		width: 90vw;
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+}
